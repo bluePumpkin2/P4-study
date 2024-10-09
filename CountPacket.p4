@@ -161,7 +161,7 @@ control MyIngress(inout headers hdr,
             ipv4_lpm.apply();
             
             @atomic{
-                bit<32> index = (bit<32>)hdr.tcp.dstPort;
+                bit<32> index = (bit<32>)hdr.ipv4.protocol;
                 PacketCount_t tmp = 0;
                 pkt_counter.read(tmp, index);
                 tmp = tmp + 1;
