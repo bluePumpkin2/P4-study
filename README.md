@@ -1,4 +1,4 @@
-工学院大学での学部と修士のP4研究の成果物です。実験環境はP4チュートリアル(https://github.com/p4lang/tutorials/tree/master)を利用させていただいております。
+工学院大学での学部と修士のP4研究の成果物です。実験環境はP4チュートリアルを利用させていただいております。https://github.com/p4lang/tutorials/tree/master
 
 ### CountPacket.p4
 - P4チュートリアルの全ての演習を完了した後、自力でP4プログラムを書けるようになるために作成した簡単なパケットカウントプログラム。
