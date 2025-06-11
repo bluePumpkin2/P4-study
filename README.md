@@ -22,6 +22,6 @@
 
 ### Static_QACK_TimestampOptionInvalid.p4, Static_QACK_TimestampOptionValid.p4, Dynamic_QACK_TimestampOptionInvalid.p4
 - 提案手法を実装したP4プログラム
-- 提案手法の詳細は、https://ken.ieice.org/ken/paper/20250410fc9E/ 等の発表論文を参照
+- 提案手法の詳細は、https://ken.ieice.org/ken/paper/20250410fc9E/ 等の発表論文を参照。（※リンクをクリックしても開けない場合は、URLをコピーしてブラウザに直接貼り付けてください。）
 - StaticはQACKの対象コネクションを静的に決定するもので、Dynamicは動的に決定するものである。
 - プロトタイプのため、IPアドレスを決め打ちしているなどの簡単化がされている。
